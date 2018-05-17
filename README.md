@@ -11,3 +11,7 @@ $ mix run --no-halt
 {#PID<0.109.0>, 229064, :state_doesnt_matter}
 {#PID<0.109.0>, 229066, :state_doesnt_matter}
 ```
+
+### Source
+
+https://elixirschool.com/en/lessons/advanced/gen-stage/

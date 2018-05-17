@@ -11,7 +11,8 @@ defmodule GenstageExample.Application do
     children = [
       worker(GenstageExample.Producer, [0]),
       worker(GenstageExample.ProducerConsumer, []),
-      worker(GenstageExample.Consumer, [])
+      worker(GenstageExample.Consumer, [], id: 1),
+      worker(GenstageExample.Consumer, [], id: 2)
     ]
 
     opts = [strategy: :one_for_one, name: GenstageExample.Supervisor]

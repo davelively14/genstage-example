@@ -1,21 +1,13 @@
 # GenstageExample
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `genstage_example` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:genstage_example, "~> 0.1.0"}
-  ]
-end
+Run demonstration via:
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/genstage_example](https://hexdocs.pm/genstage_example).
-
+$ mix run --no-halt
+{#PID<0.109.0>, 2, :state_doesnt_matter}
+{#PID<0.109.0>, 4, :state_doesnt_matter}
+{#PID<0.109.0>, 6, :state_doesnt_matter}
+...
+{#PID<0.109.0>, 229062, :state_doesnt_matter}
+{#PID<0.109.0>, 229064, :state_doesnt_matter}
+{#PID<0.109.0>, 229066, :state_doesnt_matter}
+```
